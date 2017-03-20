@@ -10,7 +10,5 @@ git log 		      # mostra histórico de commits
 git status		      # mostra estado de repositórios e arquivos.
 git add			      # adiciona arquivos a área de preparo.
 git init		      # transforma o diretório em um repositório git.
-
-'C:\Users\user\AppData\Local\atom\atom.exe'
-
-git config --global core.editor "'C:\Users\user\AppData\Local\atom\atom.exe' -n -w"
+git diff                      # se usado com ids de commits mostra a diferença entre eles, se usado sem argumentos mostras as diferenças entre o repoditório local e o add.
+git diff --staged	      # mostra as diferenças entre o add e o repositório git.
