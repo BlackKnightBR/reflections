@@ -11,4 +11,16 @@ git status		      # mostra estado de repositórios e arquivos.
 git add			      # adiciona arquivos a área de preparo.
 git init		      # transforma o diretório em um repositório git.
 git diff                      # se usado com ids de commits mostra a diferença entre eles, se usado sem argumentos mostras as diferenças entre o repoditório local e o add.
-git diff --staged	      # mostra as diferenças entre o add e o repositório git.
+git diff --staged	      # mostra as diferenças entre o add e o repositório git(último commit).
+git reset --hard	      # elimina as diferenças alocadas com o comando add na área de preparo ou diretório de trabalho. Cuidado as mudanças desse comando são irreversíveis.
+git branch		      # mostra o master e os branches existentes.
+git branch "argumento"        # cria um branch com o nome definido no argumento.
+git checkout "argumento"      # passa a editar o branch passado como argumento.
+git log --graph 	      # visualiza a estrutura de branches.
+git log --graph --oneline     # simplifica a saída para visualização com o argumento oneline "--".(pode ser usado com mais dois argumentos nomes de branches para compara-los).
+git log --graph --oneline master coins
+git checkout -b "nome"	      # cria um novo branch para o commit perdido.
+git show "idCommit"	      # mostra quais alterações um commit adicionou em relação ao pai do commit.
+
+
+
